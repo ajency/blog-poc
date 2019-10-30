@@ -64,7 +64,27 @@
 	$(document).ready(function() {
 		$.ajax({url: "http://ethicalseosolutions.net/newweddingz/wp-json/wp/v2/posts?_embed", success: function(result){
 			$.each(result, function(index, element) {
-				if(index == 1){ // for displaying only 1 post
+				url = window.location.href.split("?");
+				if(url.length == 2){
+					if(element.id == url[1]){
+						var author = element._embedded.author[0].name;
+						var dateObj = element.date.split("T");
+						var auth = "By "+author+" | "+dateObj[0];
+						var fimg = element._embedded['wp:featuredmedia'][0].source_url;
+						var img = '<img src="'+fimg+'" >';
+						
+						var link = $("<a>");
+							link.attr("href",element.link);
+							link.attr("target","_blank");
+							link.attr("title",element.title.rendered);
+							link.text(element.title.rendered);
+							link.addClass("link");
+						$('.content-wrap .item-title').html(element.title.rendered);
+						$('.content-wrap .article-meta').html(auth);
+						$('.content-wrap .article-content p').append(img);
+						$('.content-wrap .article-content p').append(element.content.rendered);
+					}
+				} else if(element.id == 8){ // for displaying only 1 post
 					var author = element._embedded.author[0].name;
 					var dateObj = element.date.split("T");
 					var auth = "By "+author+" | "+dateObj[0];
