@@ -1,27 +1,15 @@
 <html>
 	<head>
 	<script type="text/javascript"	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script type="text/javascript" src="https://bam.nr-data.net/1/acb081d69e?a=154016829&amp;v=1130.54e767a&amp;to=bwBQNUYHXBZQB0ZRW1ZKdBRaBUYMXgodWVhcF0sPawhXEkIGXldTFhNbBEMVCCRDEFtbWF0pWxJASFUARQ%3D%3D&amp;rst=6834&amp;ref=https://weddingz.in/blog/&amp;qt=1&amp;ap=4620&amp;be=5620&amp;fe=6629&amp;dc=6226&amp;perf=%7B%22timing%22:%7B%22of%22:1572348353703,%22n%22:0,%22u%22:5598,%22ue%22:5603,%22f%22:3,%22dn%22:6,%22dne%22:793,%22c%22:793,%22s%22:814,%22ce%22:854,%22rq%22:855,%22rp%22:5578,%22rpe%22:5596,%22dl%22:5613,%22di%22:6226,%22ds%22:6226,%22de%22:6345,%22dc%22:6629,%22l%22:6629,%22le%22:6636%7D,%22navigation%22:%7B%7D%7D&amp;fp=5752&amp;fcp=5752&amp;jsonp=NREUM.setToken"></script>
-        <script src="https://js-agent.newrelic.com/nr-1130.min.js"></script><script src="https://connect.facebook.net/signals/config/931951943539248?v=2.9.5&amp;r=stable" async=""></script><script src="https://connect.facebook.net/signals/config/1039177969548425?v=2.9.5&amp;r=stable" async=""></script><script src="https://connect.facebook.net/en_US/sdk.js?hash=60b9d9fc93ea5b7321cc62eee7715e86&amp;ua=modern_es6" async="" crossorigin="anonymous"></script><script src="https://connect.facebook.net/signals/config/346221472656160?v=2.9.5&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script>
-          var start_page_time = (new Date()).getTime();
-          function getTimeStamp() {
-            var now = new Date();
-            var tzo = -now.getTimezoneOffset();
-            var dif = tzo >= 0 ? '+' : '-';
-            var pad = function(num) {
-              var norm = Math.abs(Math.floor(num));
-              return (norm < 10 ? '0' : '') + norm;
-            };
-            return now.getFullYear() + '-' + pad(now.getMonth()+1) + '-' + pad(now.getDate()) + 'T' + pad(now.getHours()) + ':' + pad(now.getMinutes()) + ':' + pad(now.getSeconds()) + '.' + pad(now.getMilliseconds()) + dif + pad(tzo / 60) + ':' + pad(tzo % 60);
-          }
-        </script>
+		
+        
         
           <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.weddingz.in/blog/">
         
         <link rel="canonical" href="https://weddingz.in/blog/">
         
         <link href="https://fonts.googleapis.com/css?family=Lato:400,600,700" rel="stylesheet" type="text/css">
-        <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":1,"licenseKey":"acb081d69e","agent":"","transactionName":"bwBQNUYHXBZQB0ZRW1ZKdBRaBUYMXgodWVhcF0sPawhXEkIGXldTFhNbBEMVCCRDEFtbWF0pWxJASFUARQ==","applicationID":"154016829","errorBeacon":"bam.nr-data.net","applicationTime":4620}</script>
+        <meta charset="utf-8">
         <title>
 		
 			Indian Wedding Blog | Wedding Planning Blog - Weddingz.in
@@ -66,92 +54,15 @@
 	
 
         
-          <script type="text/javascript">
-            // GOOGLE ANALYTIC CODE
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-61073280-1', 'auto');
-
-            function getCookie(cname) {
-              var name = cname + "=";
-              var decodedCookie = decodeURIComponent(document.cookie);
-              var ca = decodedCookie.split(';');
-              for(var i = 0; i < ca.length; i++) {
-                var c = ca[i];
-                while (c.charAt(0) == ' ') {
-                  c = c.substring(1);
-                }
-                if (c.indexOf(name) == 0) {
-                  return c.substring(name.length, c.length);
-                }
-              }
-              return "";
-            }
-            var randomSessionStr = new Date().getTime().toString() + '.' + Math.random().toString(36).substring(5);
-            var user_ga_id = '18733';			
-            try {
-              var _gaCookie = getCookie("_ga").substring(6);
-              ga('set', 'clientId', _gaCookie);
-              ga('set', 'dimension3', _gaCookie);
-            } catch (e) {}
-            ga('set', 'sessionId', randomSessionStr);
-            ga('set', 'dimension4', randomSessionStr);
-            ga('set', 'timeStamp', getTimeStamp());
-            ga('set', 'dimension2', getTimeStamp());
-            if (user_ga_id !== 'None') {
-              ga('set', 'userId', user_ga_id);
-              ga('set', 'dimension1', user_ga_id);
-              ga('send', 'pageview');
-              ga('send', 'event', 'authentication', 'user-id available');
-            } else {
-              ga('send', 'pageview');
-            }
-
-            // END GOOGLE ANALYTIC CODE
-          </script>
-
-          <!-- Facebook Pixel Code -->
-          <script>
-            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-            document,'script','https://connect.facebook.net/en_US/fbevents.js');
-
-            fbq('init', '346221472656160');
-            fbq('init', '1039177969548425');
-            fbq('init', '931951943539248');
-            fbq('track', "PageView");
-            fbq('track', 'ViewContent');
-            fbq('track', 'Search');
-            fbq('track', 'AddToCart');
-            fbq('track', 'Lead');
-          </script>
-
-          <noscript>
-            <img height="1" width="1" style="display:none"
-              src="https://www.facebook.com/tr?id=346221472656160&ev=PageView&noscript=1"
-            />
-          </noscript>
-
-          <noscript><img height="1" width="1" style="display:none"
-          src="https://www.facebook.com/tr?id=1039177969548425&ev=PageView&noscript=1"
-          /></noscript>
-
-          <noscript><img height="1" width="1" style="display:none"
-          src="https://www.facebook.com/tr?id=931951943539248&ev=PageView&noscript=1"
-          /></noscript>
-        <!-- End Facebook Pixel Code -->
         
-    <script id="facebook-jssdk" async="" src="//connect.facebook.net/en_US/sdk.js"></script><script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/954610524/?random=1572348359836&amp;cv=9&amp;fst=1572348359836&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635471&amp;u_h=864&amp;u_w=1536&amp;u_ah=824&amp;u_aw=1536&amp;u_cd=24&amp;u_his=2&amp;u_tz=330&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fweddingz.in%2Fblog%2F&amp;tiba=Indian%20Wedding%20Blog%20%7C%20Wedding%20Planning%20Blog%20-%20Weddingz.in&amp;rfmt=3&amp;fmt=4"></script><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+        
+    <style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
 .fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
 .fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}</style>
 
  <script type="text/javascript">
 	$(document).ready(function() {
-		$.ajax({url: "wordpress/wp-json/wp/v2/posts?_embed", success: function(result){
+		$.ajax({url: "http://ethicalseosolutions.net/newweddingz/wp-json/wp/v2/posts?_embed", success: function(result){
 			$.each(result, function(index, element) {
 				if(index == 1){ // for displaying only 1 post
 					var author = element._embedded.author[0].name;
@@ -774,6 +685,256 @@
 				<p class="text-center"></p>
 			</div>
 			</div>
+
+            <div class="col-md-3 aldryn-newsblog aldryn-newsblog-sidebar">
+                            
+                            
+
+                <div class="blog-srch-wrapper">
+                    <h4> Search Blog </h4>
+                    <div class="box">
+                        <div class="container-1">
+                            <form method="GET" action="/blog-search">
+                                <span class="icon"><i class="fa fa-search"></i></span>
+
+                                <input type="search" id="search" data-searchurl="search?=" placeholder="Enter Search Term ..." name="q">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+               
+
+                
+                 
+                    <h4> Popular POSTS </h4>
+
+
+                <!--         <ul class="m-v-posts">
+                    
+                     <li>
+                        <a href="/blog/50-absolute-best-bollywood-sangeet-songs-to-dance-on-like-no-one-is-watching/">
+                            <span class="title">50 Absolute Best Bollywood Sangeet Songs to Dance on Like No One is Watching!</span>
+                            <span class="meta">Team Weddingz | Feb. 11, 2016</span>
+                        </a>
+                    </li>
+                    
+                     <li>
+                        <a href="/blog/14-best-bridal-lehenga-bridal-wear-shops-in-mumbai/">
+                            <span class="title">14 Best Bridal Lehenga &amp; Bridal Wear Shops in Mumbai </span>
+                            <span class="meta">Team Weddingz | May 5, 2016</span>
+                        </a>
+                    </li>
+                    
+                     <li>
+                        <a href="/blog/latest-bridal-lehenga-trends-for-2016/">
+                            <span class="title">Latest Bridal Lehenga Trends for 2016</span>
+                            <span class="meta">Team Weddingz | Jan. 11, 2016</span>
+                        </a>
+                    </li>
+                    
+                     <li>
+                        <a href="/blog/7-best-candid-wedding-photographers-in-delhi-you-need-to-check-out-now/">
+                            <span class="title">7 Best Candid Wedding Photographers in Delhi You Need to Check Out Now!</span>
+                            <span class="meta">Team Weddingz | June 22, 2016</span>
+                        </a>
+                    </li>
+                    
+                     <li>
+                        <a href="/blog/top-10-wedding-photographers-in-delhi_your-click-list-for-everlasting-wedding-memories/">
+                            <span class="title">Top 10 Wedding Photographers in Delhi - Your Click List for Everlasting Wedding Memories</span>
+                            <span class="meta">Team Weddingz | Jan. 16, 2016</span>
+                        </a>
+                    </li>
+                    
+                    </ul> -->
+
+
+                
+                <div class="card-pop blogArticle">
+                    
+                        <a href="/blog/50-absolute-best-bollywood-sangeet-songs-to-dance-on-like-no-one-is-watching/" class="mTop-20 row">
+                            <span class="col-xs-12 cols">
+                            
+                                <span class="iw pull-right" style="background-image: url(https://media.weddingz.in/images/b26409fd049077a8b04dbf9a49781b84/50-absolute-best-bollywood-sangeet-songs-to-dance-on-like-no-one-is-watching-2.jpg)">
+                                </span>
+                                <span class="vtitle mBtm-10">50 Absolute Best Bollywood Sangeet Songs to Dance on Like No One is Watching!
+                                    
+                                </span>
+                                <span class="blog-excerpt mBtm-5">Team Weddingz</span>
+                                <span class="blog-date">Feb. 11, 2016</span>
+                            </span>
+                        </a>                                                                      
+                        <div class="clearfix"></div>
+                        
+                        <a href="/blog/14-best-bridal-lehenga-bridal-wear-shops-in-mumbai/" class="mTop-20 row">
+                            <span class="col-xs-12 cols">
+                            
+                                <span class="iw pull-right" style="background-image: url(https://media.weddingz.in/images/d1012c9d51f6428524415501b635f541/14-best-bridal-lehenga-bridal-wear-shops-in-mumbai-7.jpg)">
+                                </span>
+                                <span class="vtitle mBtm-10">14 Best Bridal Lehenga &amp; Bridal Wear Shops in Mumbai 
+                                    
+                                </span>
+                                <span class="blog-excerpt mBtm-5">Team Weddingz</span>
+                                <span class="blog-date">May 5, 2016</span>
+                            </span>
+                        </a>                                                                      
+                        <div class="clearfix"></div>
+                        
+                        <a href="/blog/latest-bridal-lehenga-trends-for-2016/" class="mTop-20 row">
+                            <span class="col-xs-12 cols">
+                            
+                                <span class="iw pull-right" style="background-image: url(https://media.weddingz.in/images/37d131fbb1479a61ddfc320fed3af1a4/latest-bridal-lehenga-trends-for-2016.jpg)">
+                                </span>
+                                <span class="vtitle mBtm-10">Latest Bridal Lehenga Trends for 2016
+                                    
+                                </span>
+                                <span class="blog-excerpt mBtm-5">Team Weddingz</span>
+                                <span class="blog-date">Jan. 11, 2016</span>
+                            </span>
+                        </a>                                                                      
+                        <div class="clearfix"></div>
+                        
+                        <a href="/blog/7-best-candid-wedding-photographers-in-delhi-you-need-to-check-out-now/" class="mTop-20 row">
+                            <span class="col-xs-12 cols">
+                            
+                                <span class="iw pull-right" style="background-image: url(https://media.weddingz.in/images/e16fd1d17ea539b8ef8620666f5e9d68/7-best-candid-wedding-photographers-in-delhi-you-need-to-check-out-now-4.jpg)">
+                                </span>
+                                <span class="vtitle mBtm-10">7 Best Candid Wedding Photographers in Delhi You Need to Check Out Now!
+                                    
+                                </span>
+                                <span class="blog-excerpt mBtm-5">Team Weddingz</span>
+                                <span class="blog-date">June 22, 2016</span>
+                            </span>
+                        </a>                                                                      
+                        <div class="clearfix"></div>
+                        
+                        <a href="/blog/top-10-wedding-photographers-in-delhi_your-click-list-for-everlasting-wedding-memories/" class="mTop-20 row">
+                            <span class="col-xs-12 cols">
+                            
+                                <span class="iw pull-right" style="background-image: url(https://media.weddingz.in/images/0413bcc30b7f76cacd60fc0df878cb58/top-10-wedding-photographers-in-delhi-your-click-list-for-everlasting-wedding-memories-4.jpg)">
+                                </span>
+                                <span class="vtitle mBtm-10">Top 10 Wedding Photographers in Delhi - Your Click List for Everlasting Wedding Memories
+                                    
+                                </span>
+                                <span class="blog-excerpt mBtm-5">Team Weddingz</span>
+                                <span class="blog-date">Jan. 16, 2016</span>
+                            </span>
+                        </a>                                                                      
+                        <div class="clearfix"></div>
+                        
+                  </div>
+                
+
+
+                
+                
+                
+                    <h4> Showing Top Categories </h4>
+                
+                 <p class="category in-sidebar">
+                    
+                        <a href="https://weddingz.in/blog/category/wedding-planning-and-ideas/"> Wedding Planning and Ideas - 750 </a> <br>
+                    
+                        <a href="https://weddingz.in/blog/category/bridal-wear/"> Bridal Wear - 650 </a> <br>
+                    
+                        <a href="https://weddingz.in/blog/category/wedding-venues/"> Wedding Venues - 611 </a> <br>
+                    
+                        <a href="https://weddingz.in/blog/category/bridal-look/"> Bridal Look - 369 </a> <br>
+                    
+                        <a href="https://weddingz.in/blog/category/cities/"> Cities - 141 </a> <br>
+                    
+                        <a href="https://weddingz.in/blog/category/real-wedding-stories/"> Real Wedding Stories - 134 </a> <br>
+                    
+                        <a href="https://weddingz.in/blog/category/wedding-ideas/"> Wedding Ideas - 132 </a> <br>
+                    
+                        <a href="https://weddingz.in/blog/category/wedding-vendors/"> Wedding Vendors - 117 </a> <br>
+                    
+                        <a href="https://weddingz.in/blog/category/communities/"> Communities - 104 </a> <br>
+                    
+                        <a href="https://weddingz.in/blog/category/wedding-photography/"> Wedding Photography - 57 </a> <br>
+                    
+                        <a href="https://weddingz.in/blog/category/destination-wedding-blogs/"> Destination Weddings - 50 </a> <br>
+                    
+                        <a href="https://weddingz.in/blog/category/wedding-planning/"> Wedding Planning - 47 </a> <br>
+                    
+                        <a href="https://weddingz.in/blog/category/wedding-decor/"> Wedding Décor - 39 </a> <br>
+                    
+                        <a href="https://weddingz.in/blog/category/bridal-mehendi-and-makeup/"> Bridal Mehendi and Makeup - 26 </a> <br>
+                    
+                        <a href="https://weddingz.in/blog/category/bridal-and-grooms-wear/"> Bridal and Groom's Wear - 18 </a> <br>
+                    
+                        <a href="https://weddingz.in/blog/category/wedding-stories/"> Wedding Stories - 18 </a> <br>
+                    
+                        <a href="https://weddingz.in/blog/category/wedding-services/"> Wedding Services - 12 </a> <br>
+                    
+                        <a href="https://weddingz.in/blog/category/about-weddingz/"> About Weddingz - 9 </a> <br>
+                    
+                        <a href="https://weddingz.in/blog/category/woes-to-vows-weddingz-advice/"> Woes to Vows: Weddingz Advice - 8 </a> <br>
+                    
+                        <a href="https://weddingz.in/blog/category/special-offers/"> Special Offers - 1 </a> <br>
+                    
+                </p>
+                <div class="social">
+                    <h4>Follow us</h4>
+                    <a href="https://www.facebook.com/WeddingZ.in" class="fa fa-facebook" target="_blank"></a>
+                    <a href="https://www.pinterest.com/weddingzindia/" class="fa fa-pinterest" target="_blank"></a>
+                    <a href="https://twitter.com/weddingzindia" class="fa fa-twitter" target="_blank"></a>
+                    <!-- <a href="https://plus.google.com/114800924259521751631/posts" class="fa fa-google-plus" target="_blank"></a> -->
+                    <a href="https://www.youtube.com/channel/UCP7LKtSKshRCB-gwzPFqPeg" class="fa fa-youtube" target="_blank"></a>
+                </div>
+                <div id="sticky-cta" class="sticky-cta" style="position: static;">
+                        <a id="download-widget" style="display: block;width: 312px;" href="http://onelink.to/gr6vtz" target="_blank">
+                            <img src="/img/real_Wedding_Page_Desktop.jpg" style="width:100%;height:100%">
+                          </a>
+                          
+                          <div class="cta-blog">
+                              <div class="cta-blog__title">Looking For wedding venues?</div>
+                            <button id="get-quote-blog">
+                                <span>Get Best Quote</span>
+                            </button>
+                          </div>
+                          
+                          
+                </div>
+                
+               
+                
+
+
+                
+                
+                
+                <script type="text/javascript">
+                    function decodeEntities(s){
+                        var str, temp= document.createElement('p');
+                        temp.innerHTML= s;
+                        str= temp.textContent || temp.innerText;
+                        temp=null;
+                        return str;
+                    }
+                    function setAppDownloadLink(){
+                      var appDownload = document.getElementById('app-download');
+                      if(appDownload){
+                        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+                        if (/android/i.test(userAgent)) {
+                            appDownload.setAttribute("href","http://onelink.to/ne96wd");
+                        }
+                        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                          appDownload.setAttribute("href","https://apps.apple.com/in/app/weddingz-in/id1465687681");
+                        }
+                      }
+                    }
+                    setAppDownloadLink();
+                </script>
+                <script type="application/ld+json">
+                    {"publisher": {"logo": {"url": "https://d23aex6kzd4ahz.cloudfront.net/img/weddingz-transperent.png", "width": 600, "@type": "ImageObject", "height": 60}, "@type": "Organization", "name": "Weddingz.in"}, "description": "OYO Weddingz.in just launched a first-of-its-kind wedding retail store in Indirapuram, New Delhi. Now plan your entire wedding under one roof!", "articleBody": " Planning a wedding in the day and age of Instagram can be daunting, dont you think? It requires a lot of leg work - browsing through scores of markets, designer stores, trips for accessories, jewellery, makeup trials, hair trials, and of course, the search for the right venue. So, while you sweat buckets thinking about all the moving and running around, we offer you the perfect solution - a one-stop-shop retail store that offers you - lehengas, jewellery, venue, makeup &amp; hairstyle, photography, basically everything under wedding planning under one roof!Just like Weddingz.in - Indias largest wedding company offers one website where a user/ viewer browse through venues, lehenga, decor, jewellery, makeup, photography, mehendi, etc, the retail store, an offline extension of the virtual presence, is the first of its kind, that offers a complete wedding planning and shopping experience. Recently, Weddingz.in team launched two stores in Delhi - one in Karol Bagh and one in Indirapuram. At the Weddingz Retail Store, customers can avail venue and non-venue services; starting with the right wedding venue consultation and book the perfect venue for ones wedding. In non-venue services, customers can book makeup artist, photographer, mehendi artist, etc. Further, if they wish to check out the said venues, a recce can be arranged as well.Once at the store, the couple in question or the family can have a tte--tte in detail over what kind of venue they should book, be it local or outstation- best locations and venues for destination weddings, banquet halls or lawns etc. They can even consult the experts present for mehendi artists and photographers required to shoot their weddings. In short, they can plan their entire wedding in one go!In a nutshell, customers can: 1. Shortlist and book venues 2. Avail Non-Venue Services like makeup, photography, mehendi, etc 3. Buy bridal lehenga and gowns 4. Buy imitation wedding jewellery For brides-to-be and even bridesmaids, they can try out the latest. trendiest lehengas with complete makeup and jewellery, i.e., get a complete bridal look consultation and even purchase what they like. A photoshoot for the same can be arranged too. It's a dream come true for any bride, right? Such an experience is unheard of before and truly unique. In short, a brand new perspective on wedding planning and trousseau shopping!Through this retail store launch, Weddingz.in aims to provide a wholesome experience under one roof to its customers at affordable prices. So ladies, if you are heading to Karol Bagh or are in Indirapuram, drop-in at the Weddingz Retail Stores. To reach the Karol Bagh Store - 10204, Padam Singh Road, Karol Bagh, New Delhi. To reach the Indirapuram Store - Shop No. 304-306, Block-J, Indirapuram Habitat Centre, Indirapuram, Ghaziabad (UP).", "headline": "#JustLaunched - Weddingz.in\u2019s First-of-its-kind Wedding Retail Store!", "image": {"url": "https://media.weddingz.in/photologue/images/justlaunched-weddingzins-first-of-its-kind-wedding-retail-store.jpg", "width": 800, "@type": "ImageObject", "height": 800}, "author": {"@type": "Organization", "name": "Nikita Banerjee"}, "wordcount": 452, "datePublished": "2019-10-22", "genre": ["Bridal Look", "Bridal Wear", "Wedding Vendors", "Wedding Venues", "Wedding Ideas", "Destination Weddings", "Wedding Photography", "Wedding D\u00e9cor", "Wedding Services", "Wedding Planning"], "alternativeHeadline": "OYO Weddingz.in just launched a first-of-its-kind wedding retail store in Indirapuram, New Delhi. Now plan your entire wedding under one roof!", "url": "https://weddingz.in/blog/justlaunched-weddingzins-first-of-its-kind-wedding-retail-store", "editor": "Nikita Banerjee", "keywords": "Weddingz Retail Store, Wedding Planning Services, Wedding Planning Store, Retail Store", "mainEntityOfPage": {"@id": "https://weddingz.in", "@type": "WebPage"}, "@context": "http://schema.org", "dateCreated": "2019-10-22", "@type": "BlogPosting", "dateModified": "2019-10-22"}
+                </script>
+
+                        </div>
+
+
+                        
 		</div>
 	</div>
 
