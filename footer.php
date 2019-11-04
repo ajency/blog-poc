@@ -290,6 +290,79 @@
 	</div>
 
 </footer>
+<script type="text/javascript">
+          var isMobile=  false 
+          var user_id = 'None';
+        </script>
+        <script type="text/javascript">
+
+        	var city_name =  null, fmv_ids = new Array(),firstSearch = false;
+          	
+          	
+          	
+              	
+          		var page_type = "blog-homepage"
+          	
+
+            if(typeof page_type === 'undefined'){
+                var page_type = ""
+            } 
+        	
+        	var  _STATIC= "https://d23aex6kzd4ahz.cloudfront.net/"
+        	var  _MEDIA_URL= "https://media.weddingz.in/"
+        	var _TOKEN = "<input type='hidden' name='csrfmiddlewaretoken' value='ZouoZKJGSXAJxNwcfxfeVTRrjNTOa6qM' />"
+        	var _DEFAULT_VENUE_TYPE="wedding-venues"
+        	var _VENUE_TYPE_SEARCH="" // This is added for venue listing page search and passing value from the view.
+        	var city_name = "mumbai";
+        	var can_show_shortlist_counter = true;
+        	window.addToWishList = []
+        	window.shortListcount = 0
+        	var google_api_key = "AIzaSyCyXboYjoxb7dKVFvI2HuLj1bxEItlQrJ4"
+        	var wedding_planning_url = '/my-wedding/planning/get-session-planning-form-details'
+        	var get_quote_url = '/my-wedding/planning/get-session-enquiry-details'
+        	var user_events_url = "/v1.0/api/get-user-events-for-user"
+        	venue_shortlist = '/my-wedding/my-venues/'
+            trade_partner_shortlist = '/wishlist/my-vendors/'
+        	_AWS_POLICY = "eyJjb25kaXRpb25zIjogW3siYnVja2V0IjogInBhcnR5ei1wYXJ0bmVyLWltYWdlcyJ9LCB7ImFjbCI6ICJwdWJsaWMtcmVhZCJ9LCBbInN0YXJ0cy13aXRoIiwgIiRrZXkiLCAiIl0sIFsic3RhcnRzLXdpdGgiLCAiJG5hbWUiLCAiIl0sIHsic3VjY2Vzc19hY3Rpb25fc3RhdHVzIjogIjIwMSJ9XSwgImV4cGlyYXRpb24iOiAiMjAxOS0xMS0wMVQwMDowMDowMC4wMDBaIn0="
+        	_AWS_SIGNATURE= "4MWtB1GAvgaiXTfgq/7MRGqth5A="
+        	
+            ideabook_notloggedin_html = {"html": "\n\n\n\t<!-- <div class=\"ideabook-save-btn\"><button class=\"btn btn-sm no-login\" >IdeaBook</button></div>\n\t<div class=\"social-login vendor hidden\">\n\t\t<a class=\"fb fb-login-shortlist-btn fb-login-btn\" data-target=\"#signinModal\" data-toggle=\"modal\" data-fb-next-url=\"/blog/\" href=\"#?next=/blog/&state=ideabook\"> Login to save to Ideabook</a>\n\t</div> -->\n\n\n"}
+          	var facebookAppID = '1475224516114304'
+
+        	 var staticPages = new Array("login","accounts","contact","how-it-works","terms","faq", "real-weddings","shop");
+
+         
+        </script>
+
+        <script type="text/javascript">
+        	selected_city=$('#select-city').val().toLowerCase();
+        	var path = window.location.pathname;
+
+        	var lastSel = $('#select-city option:selected');
+        	$('#select-city').on('change', function(){
+        	  if (this.value != 'showpopup') {
+        		window.location.href = '/change-city/'+this.value+'/';
+        	  } else {
+        		$('#modalCitySelPopup').modal('show');
+        		lastSel.attr("selected", true);
+        	  }
+        	});
+           
+
+        	var lastSel = $('#select-city option:selected');
+        	
+        	var userEvents = [];
+
+        	
+            if (false  && (path.indexOf('terms/') == -1)){
+              // $('#modalUserData').modal({backdrop: 'static', keyboard: false});
+              // $('#modalUserData').modal('show');
+            }
+
+        </script>
+       
+		<!-- <script src="https://d23aex6kzd4ahz.cloudfront.net/dist/js/5.82/blog_listing_page.min.js" type="text/javascript"></script> -->
+
  </body>
 </html>
 

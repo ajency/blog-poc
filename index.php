@@ -195,10 +195,66 @@
 
 			</div>
 
-            <div class="col-md-3 aldryn-newsblog aldryn-newsblog-sidebar">
-                <?php include 'sidebar.php'; ?>
-			</div>           
+            <div class="aldryn-newsblog aldryn-newsblog-sidebar col-lg-3 col-md-4 col-sm-4 col-xs-4">
+                <?php include 'sidebar-home.php'; ?>
+			</div>
+
+			<div class="clearfix"></div>           
+		
+			<div class="col-md-12">
+				<h3 class="sgrid-title post-title "><span>Latest Blogs</span></h3>
+			
+
+				<div class="aldryn-newsblog-list grid" id="blog-masonary">
+
+					<!-- Loop starts here -->
+					<div class="grid-item-holder">
+						<div class="grid-item">
+							<div class="grid-card">
+								<!-- link -->
+								 <a class="image-link" href="/blog/celebrating22yearsofdtph-5-dil-toh-pagal-hai-songs-for-your-sangeet/" target="_blank">
+								 	<!-- image -->
+								 	<img alt="#Celebrating22YearsofDTPH 5 Dil Toh Pagal Hai Songs for your Sangeet" class="img-responsive landing-featured-img lazy" src="https://media.weddingz.in/images/56482a0ef6d7fcb72802e541a56adca1/celebrating22yearsofdtph-5-dil-toh-pagal-hai-songs-for-your-sangeet.jpg">
+								</a>
+								<div class="item-info">
+									<div class="item-title">
+										<!-- link -->
+										<a href="/blog/celebrating22yearsofdtph-5-dil-toh-pagal-hai-songs-for-your-sangeet/" target="_blank">
+										<!-- Title -->
+										#Celebrating22YearsofDTPH 5 Dil Toh Pagal Hai Songs for your Sangeet
+										</a>
+									</div>
+									<!-- Summary -->
+									<div class="item-summary">
+										I am thankful for many things in life but if there is one thing I am really thankful for, it’s for Yashraj’s movies’ song tracks. Take Dil Toh Pagal Hai for example- from Le Gayi to the uber-famou...
+									</div>
+									<div class="item-meta categories">
+										<i class="fa fa-calendar-o"></i>
+										 Oct. 31, 2019
+									</div>
+									<!-- categories -->
+									<p class="item-meta categories blog-cat hidden">
+										<a href="/blog/category/wedding-planning/"><i aria-hidden="true" class="fa fa-folder-o"></i>Wedding Planning</a>
+									</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+					<!-- Loops ends here -->
+
+				</div>
+				<div class="loading-results">
+					<div class="w-loader"></div>
+				</div>
+				<div class="aldryn-newsblog-pagination">
+					<div class="clearfix"></div>
+					<input class="total_pages" type="hidden" value="263">
+				</div>
+			</div>
+
 		</div>
+
 	</div>
 
 <?php include 'footer.php'; ?>

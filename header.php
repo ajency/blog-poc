@@ -1,7 +1,7 @@
 <html>
 	<head>
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-	<script type="text/javascript"	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript"	src="https://d23aex6kzd4ahz.cloudfront.net/js/main/js/jquery.min.js"></script>
 	<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.weddingz.in/blog/">
 	
 	<link rel="canonical" href="https://weddingz.in/blog/">
@@ -49,6 +49,11 @@
 		<link href="https://d23aex6kzd4ahz.cloudfront.net/dist/css/5.81/global-optimize.min.css" rel="stylesheet">
 		<link href="https://d23aex6kzd4ahz.cloudfront.net/dist/css/5.81/blog_optimize.min.css" rel="stylesheet">
 		<link rel="icon" type="image/x-icon" href="https://d23aex6kzd4ahz.cloudfront.net/img/favicon.png">
+		<style type="text/css">
+			.aldryn-newsblog-list.grid .grid-item-holder img{
+				opacity: 1;
+			}
+		</style>
 	
 
         
