@@ -1,4 +1,6 @@
-RewriteEngine on 
-RewriteCond %{REQUEST_FILENAME} !-d 
-RewriteCond %{REQUEST_FILENAME}\.php -f 
-RewriteRule ^(.*)$ $1.php
+
+RewriteEngine on
+
+RewriteRule ^([a-z]+)\/?$ index.php?param=$1 [NC]
+    
+RewriteRule ^([0-9a-zA-Z-_]+)\/?$ index?ID=$1 [QSA,NC,L]
