@@ -1,5 +1,6 @@
 <html>
 	<head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 	<script type="text/javascript"	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.weddingz.in/blog/">
 	
