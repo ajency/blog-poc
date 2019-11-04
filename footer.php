@@ -360,6 +360,22 @@
             }
 
         </script>
+
+        <script src="https://unpkg.com/isotope-layout@2/dist/isotope.pkgd.min.js"></script>
+        <script src="https://npmcdn.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+        
+        <script type="text/javascript">
+        	var $grid = $('.grid').isotope({
+        	  // options
+        	  itemSelector: '.grid-item-holder',
+        	  layoutMode: 'masonry'
+        	});
+
+        	// layout Isotope after each image loads
+        	$grid.imagesLoaded().progress( function() {
+        	  $grid.isotope('layout');
+        	});
+        </script>
        
 		<!-- <script src="https://d23aex6kzd4ahz.cloudfront.net/dist/js/5.82/blog_listing_page.min.js" type="text/javascript"></script> -->
 
